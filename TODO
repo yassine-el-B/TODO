@@ -1,0 +1,33 @@
+
+ID	User Story	Fase	MoSCoW	Week	Status
+1	Als gebruiker wil ik een taak kunnen aanmaken, zodat ik mijn werk kan plannen.	Basis & CRUD	MUST	1	todo
+2	Als gebruiker wil ik een lijst met al mijn taken zien, zodat ik overzicht heb.	Basis & CRUD	MUST	1	todo
+3	Als gebruiker wil ik een taak kunnen bewerken, zodat ik fouten kan corrigeren.	Basis & CRUD	MUST	1	todo
+4	Als gebruiker wil ik een taak kunnen verwijderen, zodat mijn lijst opgeruimd blijft.	Basis & CRUD	MUST	1	todo
+5	Als gebruiker wil ik validatie krijgen bij het invullen van een taak, zodat ik correcte data invul.	Basis & CRUD	SHOULD	1	todo
+6	Als gebruiker wil ik kunnen inloggen, zodat ik toegang krijg tot mijn eigen taken.	Auth	MUST	2	todo
+7	Als gebruiker wil ik alleen mijn eigen taken zien, zodat mijn data privé blijft.	Auth	MUST	2	todo
+8	Als gebruiker wil ik een taak koppelen aan mijn account, zodat de app weet van wie de taak is.	Auth	MUST	2	todo
+9	Als gebruiker wil ik categorieën kunnen aanmaken, zodat ik taken kan groeperen.	Categorieën	SHOULD	3	todo
+10	Als gebruiker wil ik een categorie kunnen toekennen aan een taak, zodat mijn lijst gestructureerd blijft.	Categorieën	SHOULD	3	todo
+11	Als gebruiker wil ik taken kunnen filteren op categorie, zodat ik snel vind wat ik zoek.	Categorieën	SHOULD	3	todo
+12	Als gebruiker wil ik een taakstatus instellen (todo/in_progress/done), zodat ik taken kan managen.	Status & Overzicht	SHOULD	4	todo
+13	Als gebruiker wil ik taken kunnen markeren als voltooid, zodat ik voortgang ervaar.	Status & Overzicht	SHOULD	4	todo
+14	Als gebruiker wil ik verwijderde taken terug kunnen zetten (soft delete), zodat ik fouten kan herstellen.	Status & Overzicht	COULD	4	todo
+15	Als gebruiker wil ik een prullenbak-overzicht zien, zodat ik verwijderde taken kan beheren.	Status & Overzicht	COULD	4	todo
+16	Als gebruiker wil ik een dashboard met taakoverzicht zien, zodat ik inzicht heb.	Status & Overzicht	COULD	4	todo
+17	Als gebruiker wil ik subtaken kunnen toevoegen, zodat ik grote taken kan opdelen.	Subtaken	COULD	5	todo
+18	Als gebruiker wil ik subtaken kunnen afvinken, zodat ik voortgang zie.	Subtaken	COULD	5	todo
+19	Als gebruiker wil ik zien hoeveel procent subtaken af is, zodat ik motivatie krijg.	Subtaken	COULD	5	todo
+20	Als developer wil ik taken via JSON kunnen opvragen, zodat ik een frontend kan koppelen.	API	MUST	6	todo
+21	Als developer wil ik taken via de API kunnen aanmaken, zodat externe apps data kunnen toevoegen.	API	MUST	6	todo
+22	Als developer wil ik taken via de API kunnen bijwerken, zodat de app flexibel blijft.	API	MUST	6	todo
+23	Als developer wil ik taken via de API kunnen verwijderen, zodat ik volledige CRUD heb.	API	SHOULD	6	todo
+24	Als developer wil ik API-endpoints kunnen testen in Postman, zodat ik weet dat alles werkt.	API	SHOULD	6	todo
+25	Als gebruiker wil ik een duidelijke UI, zodat ik intuïtief kan navigeren.	Frontend	COULD	7	todo
+26	Als gebruiker wil ik taken als kaarten/cards zien, zodat alles overzichtelijk blijft.	Frontend	COULD	7	todo
+27	Als gebruiker wil ik een layout met sidebar en hoofdcontent, zodat de app professioneel voelt.	Frontend	COULD	7	todo
+28	Als gebruiker wil ik e-mailnotificaties krijgen bij nieuwe taken, zodat ik niets mis.	Eindfeature	WONT	8	todo
+29	Als gebruiker wil ik taken kunnen sorteren met drag & drop, zodat mijn lijst logisch blijft.	Eindfeature	WONT	8	todo
+30	Als developer wil ik API-tokens beheren, zodat ik externe apps kan koppelen.	Eindfeature	WONT	8	todo
+31	Als gebruiker wil ik een persoonlijk dashboard zien, zodat ik direct mijn prioriteiten zie.	Eindfeature	WONT	8	todo
